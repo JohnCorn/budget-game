@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src= "data.js">       
+        </script>
+        <script src= "script.js">
+        </script>
+        <link href="../dist/output.css" rel="stylesheet">
+    </head>
+    <body onload="SetUp()">
+        <div id ="heading">     
+            <div
+            class = "relative">
+                <div 
+                id = "currBudget"
+                class = "fixed top-0 left-0 right-0 bg-red-400 pl-3 pt-2"
+                >
+                </div>
+            </div>
+           
+            <h1
+            class="pl-3 pt-8 pb-3"
+            >
+            Spend the NYPD budget</h1>
+        </div>
+
+        <div 
+        class ="bg-slate-400 justify-center mx-10"
+        >
+            <div id="wrapper"
+            class ="mx-auto px-8 py-8 w-full max-w-6xl grid grid-cols-3 gap-5">
+            </div>
+        </div>
+        <h2 id ="itemized"></h2>
+        <!--
+        === TODO ===
+        - pop out window
+            - blur background
+            - make close button
+            - create alpinejs events
+            - transistition animations
+        -->
+    </body>
+</html>
